@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  font-size: 16px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.btn-increment {
+  background-color: #1dd1a1;
+}
+
+.btn-reset {
+  background-color: #ed4c67;
+}
+
+.btn-save {
+  background-color: #9980fa;
+}
+
+.btn-clear {
+  background-color: #833471;
+}
+
+.btn-increment:hover {
+  background-color: #10ac84;
+}
+
+.btn-reset:hover {
+  background-color: #b53471;
+}
+
+.btn-save:hover {
+  background-color: #5758bb;
+}
+
+.btn-clear:hover {
+  background-color: #6f1e51;
+}

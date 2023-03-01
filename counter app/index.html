@@ -8,6 +8,22 @@
     <title>Counter App</title>
   </head>
   <body>
-    <script></script>
+    <div class="app-container">
+      <div class="content-container">
+        <h1>People Entered</h1>
+        <h3 id="count-el">0</h3>
+        <button id="increment-button" class="btn btn-increment">Count</button>
+        <button id="save-btn" class="btn btn-save" onclick="save()">
+          save
+        </button>
+        <button id="reset-button" class="btn btn-reset">Reset Count</button>
+        <p id="save">Previous Entries:</p>
+
+        <button id="clear" class="btn btn-clear" onclick="clearString()">
+          Clear Entries
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
